@@ -14,3 +14,10 @@ require (
 	golang.org/x/sys v0.0.0-20191010194322-b09406accb47 // indirect
 	gopkg.in/yaml.v2 v2.2.4 // indirect
 )
+replace (
+        github.com/haoyong2010/ginTest/pkg/setting => ~/gin-test/pkg/setting
+        github.com/haoyong2010/ginTest/conf          => ~/gin-test/pkg/conf
+        github.com/haoyong2010/ginTest/middleware  => ~/gin-test/middleware
+        github.com/haoyong2010/ginTest/models       => ~/gin-test/models
+        github.com/haoyong2010/ginTest/routers       => ~/gin-test/routers
+)
